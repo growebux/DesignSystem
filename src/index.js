@@ -6,7 +6,7 @@ import PrimaryDarkPurple, {
 } from './components/Buttons'
 
 const App = () => (
-  <div>
+  <div className='box'>
     <PrimaryDarkPurple>Primary</PrimaryDarkPurple>
     <SecondaryLightPurple>Secondary</SecondaryLightPurple>
     <TertiaryPurple>Tertiary</TertiaryPurple>

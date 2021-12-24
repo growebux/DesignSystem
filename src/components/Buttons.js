@@ -2,6 +2,12 @@ import styled from "styled-components";
 
 const PrimaryDarkPurple = "#60308C";
 
+
+const BoxScale = styled.canvas`
+    padding: 20px 59px;
+    font-size: 1rem;
+    border-radius: 10px;`
+
 const Button = styled.button`
     padding: 20px 59px;
     font-size: 1rem;
@@ -28,7 +34,6 @@ export const TertiaryPurple = styled(Button)`
     border: none;
     color: ${PrimaryDarkPurple}
 `
-
 
 
 

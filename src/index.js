@@ -1,9 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import PrimaryButton from './components/Buttons'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import PrimaryDarkPurple, {
+  SecondaryLightPurple,
+  TertiaryPurple,
+} from './components/Buttons'
 
-const App = () => <PrimaryButton>Primary</PrimaryButton>
+const App = () => (
+  <div>
+    <PrimaryDarkPurple>Primary</PrimaryDarkPurple>
+    <SecondaryLightPurple>Secondary</SecondaryLightPurple>
+    <TertiaryPurple>Tertiary</TertiaryPurple>
+  </div>
+)
 
-
-ReactDOM.render(<App />, document.querySelector('#root'));
-
+ReactDOM.render(<App />, document.querySelector('#root'))

@@ -3,7 +3,7 @@ import styled from "styled-components";
 const PrimaryDarkPurple = "#60308C";
 
 
-const BoxScale = styled.canvas`
+export const Box = styled.canvas`
     padding: 20px 59px;
     font-size: 1rem;
     border-radius: 10px;`
@@ -14,7 +14,7 @@ const Button = styled.button`
     border-radius: 10px;
     min-width:100px;
     cursor: pointer;
-    font-family: "Roboto Mono" 
+    font-family: "Roboto Mono", arial;
 `;
 
 const PrimaryButton = styled(Button)`
